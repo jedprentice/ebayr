@@ -1,0 +1,329 @@
+<GetSellerTransactionsResponse xmlns="urn:ebay:apis:eBLBaseComponents">
+  <Timestamp>2015-06-16T11:17:06.995Z</Timestamp>
+  <Ack>Success</Ack>
+  <Version>921</Version>
+  <Build>E921_CORE_APISELLING_17485476_R1</Build>
+  <PaginationResult>
+    <TotalNumberOfPages>31</TotalNumberOfPages>
+    <TotalNumberOfEntries>6150</TotalNumberOfEntries>
+  </PaginationResult>
+  <HasMoreTransactions>true</HasMoreTransactions>
+  <TransactionsPerPage>200</TransactionsPerPage>
+  <PageNumber>2</PageNumber>
+  <ReturnedTransactionCountActual>200</ReturnedTransactionCountActual>
+  <Seller>
+    <AboutMePage>false</AboutMePage>
+    <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wJk4aoDZKBoAmdj6x9nY+seQ==</EIASToken>
+    <Email>care@blinq.com</Email>
+    <FeedbackScore>195559</FeedbackScore>
+    <PositiveFeedbackPercent>98.9</PositiveFeedbackPercent>
+    <FeedbackPrivate>false</FeedbackPrivate>
+    <FeedbackRatingStar>RedShooting</FeedbackRatingStar>
+    <IDVerified>false</IDVerified>
+    <eBayGoodStanding>true</eBayGoodStanding>
+    <NewUser>false</NewUser>
+    <RegistrationDate>2001-07-21T16:51:16.000Z</RegistrationDate>
+    <Site>US</Site>
+    <Status>Confirmed</Status>
+    <UserID>blinq</UserID>
+    <UserIDChanged>false</UserIDChanged>
+    <UserIDLastChanged>2010-07-08T14:47:45.000Z</UserIDLastChanged>
+    <VATStatus>NoVATTax</VATStatus>
+    <SellerInfo>
+      <AllowPaymentEdit>false</AllowPaymentEdit>
+      <CheckoutEnabled>true</CheckoutEnabled>
+      <CIPBankAccountStored>false</CIPBankAccountStored>
+      <GoodStanding>true</GoodStanding>
+      <LiveAuctionAuthorized>false</LiveAuctionAuthorized>
+      <MerchandizingPref>OptIn</MerchandizingPref>
+      <QualifiesForB2BVAT>false</QualifiesForB2BVAT>
+      <StoreOwner>true</StoreOwner>
+      <StoreURL>http://www.stores.ebay.com/id=34952315</StoreURL>
+      <SafePaymentExempt>true</SafePaymentExempt>
+    </SellerInfo>
+  </Seller>
+  <TransactionArray>
+    <Transaction>
+      <AmountPaid currencyID="USD">50.89</AmountPaid>
+      <AdjustmentAmount currencyID="USD">0.0</AdjustmentAmount>
+      <ConvertedAdjustmentAmount currencyID="USD">0.0</ConvertedAdjustmentAmount>
+      <Buyer>
+        <AboutMePage>false</AboutMePage>
+        <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6AHloahC5mLqQidj6x9nY+seQ==</EIASToken>
+        <Email>issak537@gmail.com</Email>
+        <FeedbackScore>14</FeedbackScore>
+        <PositiveFeedbackPercent>100.0</PositiveFeedbackPercent>
+        <FeedbackPrivate>false</FeedbackPrivate>
+        <FeedbackRatingStar>Yellow</FeedbackRatingStar>
+        <IDVerified>false</IDVerified>
+        <eBayGoodStanding>true</eBayGoodStanding>
+        <NewUser>false</NewUser>
+        <RegistrationDate>2015-04-15T05:22:42.000Z</RegistrationDate>
+        <Site>US</Site>
+        <Status>Confirmed</Status>
+        <UserID>touwanakatakarao0</UserID>
+        <UserIDChanged>false</UserIDChanged>
+        <VATStatus>NoVATTax</VATStatus>
+        <BuyerInfo>
+          <ShippingAddress>
+            <Name>Touwana M Katakaraou</Name>
+            <Street1>351 6thAve west apart 403</Street1>
+            <CityName>Newark</CityName>
+            <StateOrProvince>NJ</StateOrProvince>
+            <Country>US</Country>
+            <CountryName>United States</CountryName>
+            <Phone>(201) 349-6761</Phone>
+            <PostalCode>07107</PostalCode>
+            <AddressID>1726848193023</AddressID>
+            <AddressOwner>eBay</AddressOwner>
+            <AddressUsage>DefaultShipping</AddressUsage>
+          </ShippingAddress>
+        </BuyerInfo>
+        <UserAnonymized>false</UserAnonymized>
+        <StaticAlias>touwan_fy3245rf@members.ebay.com</StaticAlias>
+      </Buyer>
+      <ShippingDetails>
+        <ChangePaymentInstructions>true</ChangePaymentInstructions>
+        <PaymentEdited>true</PaymentEdited>
+        <PaymentInstructions>To checkout, please click on the eBay checkout Pay Now button. You will be redirected to eBay&amp;#39;s 100&amp;#37; secure server, where you will be able to pay through PayPal or directly with any major credit card. Please contact us if you have any difficulties checking out, and we can help walk you through the process. Thank you -- The Blinq Team</PaymentInstructions>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+          <SalesTaxAmount currencyID="USD">1.1</SalesTaxAmount>
+        </SalesTax>
+        <ShippingType>Flat</ShippingType>
+        <SellingManagerSalesRecordNumber>441508</SellingManagerSalesRecordNumber>
+        <ThirdPartyCheckout>false</ThirdPartyCheckout>
+        <TaxTable>
+          <TaxJurisdiction>
+            <JurisdictionID>DC</JurisdictionID>
+            <SalesTaxPercent>5.75</SalesTaxPercent>
+            <ShippingIncludedInTax>false</ShippingIncludedInTax>
+          </TaxJurisdiction>
+          <TaxJurisdiction>
+            <JurisdictionID>MD</JurisdictionID>
+            <SalesTaxPercent>6.0</SalesTaxPercent>
+            <ShippingIncludedInTax>false</ShippingIncludedInTax>
+          </TaxJurisdiction>
+        </TaxTable>
+        <GetItFast>false</GetItFast>
+        <ShippingServiceUsed>ShippingMethodStandard</ShippingServiceUsed>
+        <ExcludeShipToLocation>Alaska/Hawaii</ExcludeShipToLocation>
+        <ExcludeShipToLocation>US Protectorates</ExcludeShipToLocation>
+        <ExcludeShipToLocation>APO/FPO</ExcludeShipToLocation>
+        <ExcludeShipToLocation>Africa</ExcludeShipToLocation>
+        <ExcludeShipToLocation>Asia</ExcludeShipToLocation>
+        <ExcludeShipToLocation>Central America and Caribbean</ExcludeShipToLocation>
+        <ExcludeShipToLocation>Europe</ExcludeShipToLocation>
+        <ExcludeShipToLocation>Middle East</ExcludeShipToLocation>
+        <ExcludeShipToLocation>Oceania</ExcludeShipToLocation>
+        <ExcludeShipToLocation>Southeast Asia</ExcludeShipToLocation>
+        <ExcludeShipToLocation>South America</ExcludeShipToLocation>
+        <ExcludeShipToLocation>BM</ExcludeShipToLocation>
+        <ExcludeShipToLocation>GL</ExcludeShipToLocation>
+        <ExcludeShipToLocation>MX</ExcludeShipToLocation>
+        <ExcludeShipToLocation>PM</ExcludeShipToLocation>
+        <ExcludeShipToLocation>PO Box</ExcludeShipToLocation>
+        <ShipmentTrackingDetails>
+          <ShippingCarrierUsed>FedEx</ShippingCarrierUsed>
+          <ShipmentTrackingNumber>780782349244</ShipmentTrackingNumber>
+        </ShipmentTrackingDetails>
+      </ShippingDetails>
+      <ConvertedAmountPaid currencyID="USD">50.89</ConvertedAmountPaid>
+      <ConvertedTransactionPrice currencyID="USD">50.89</ConvertedTransactionPrice>
+      <CreatedDate>2015-06-08T01:50:13.000Z</CreatedDate>
+      <DepositType>None</DepositType>
+      <Item>
+        <ApplicationData>OptiTurn.com</ApplicationData>
+        <AutoPay>true</AutoPay>
+        <Currency>USD</Currency>
+        <ItemID>400927465515</ItemID>
+        <ListingType>FixedPriceItem</ListingType>
+        <PaymentMethods>PayPal</PaymentMethods>
+        <PrivateListing>false</PrivateListing>
+        <Quantity>10</Quantity>
+        <SellingStatus>
+          <CurrentPrice currencyID="USD">50.89</CurrentPrice>
+          <QuantitySold>8</QuantitySold>
+          <ListingStatus>Active</ListingStatus>
+        </SellingStatus>
+        <GetItFast>false</GetItFast>
+        <SKU>771462</SKU>
+        <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+        <ConditionID>1500</ConditionID>
+        <ConditionDisplayName>New other (see details)</ConditionDisplayName>
+      </Item>
+      <QuantityPurchased>1</QuantityPurchased>
+      <Status>
+        <eBayPaymentStatus>NoPaymentFailure</eBayPaymentStatus>
+        <CheckoutStatus>CheckoutComplete</CheckoutStatus>
+        <LastTimeModified>2015-06-09T21:42:11.000Z</LastTimeModified>
+        <PaymentMethodUsed>PayPal</PaymentMethodUsed>
+        <CompleteStatus>Complete</CompleteStatus>
+        <BuyerSelectedShipping>true</BuyerSelectedShipping>
+        <PaymentHoldStatus>None</PaymentHoldStatus>
+        <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      </Status>
+      <TransactionID>456440732027</TransactionID>
+      <TransactionPrice currencyID="USD">50.89</TransactionPrice>
+      <BestOfferSale>false</BestOfferSale>
+      <ShippingServiceSelected>
+        <ShippingService>ShippingMethodStandard</ShippingService>
+        <ShippingServiceCost currencyID="USD">0.0</ShippingServiceCost>
+      </ShippingServiceSelected>
+      <PaidTime>2015-06-08T01:50:13.000Z</PaidTime>
+      <ShippedTime>2015-06-08T17:13:38.000Z</ShippedTime>
+      <TransactionSiteID>US</TransactionSiteID>
+      <Platform>eBay</Platform>
+      <PayPalEmailAddress>paypal@blinq.com</PayPalEmailAddress>
+      <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+      <ActualShippingCost currencyID="USD">0.0</ActualShippingCost>
+      <ActualHandlingCost currencyID="USD">0.0</ActualHandlingCost>
+      <OrderLineItemID>400927465515-456440732027</OrderLineItemID>
+      <IsMultiLegShipping>false</IsMultiLegShipping>
+      <IntangibleItem>false</IntangibleItem>
+    </Transaction>
+    <Transaction>
+      <AmountPaid currencyID="USD">45.99</AmountPaid>
+      <AdjustmentAmount currencyID="USD">0.0</AdjustmentAmount>
+      <ConvertedAdjustmentAmount currencyID="USD">0.0</ConvertedAdjustmentAmount>
+      <Buyer>
+        <AboutMePage>false</AboutMePage>
+        <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wBloCnDZSCpQydj6x9nY+seQ==</EIASToken>
+        <Email>benwittkowski@gmail.com</Email>
+        <FeedbackScore>98</FeedbackScore>
+        <PositiveFeedbackPercent>100.0</PositiveFeedbackPercent>
+        <FeedbackPrivate>false</FeedbackPrivate>
+        <FeedbackRatingStar>Blue</FeedbackRatingStar>
+        <IDVerified>false</IDVerified>
+        <eBayGoodStanding>true</eBayGoodStanding>
+        <NewUser>false</NewUser>
+        <RegistrationDate>2007-03-20T18:29:47.000Z</RegistrationDate>
+        <Site>US</Site>
+        <Status>Confirmed</Status>
+        <UserID>wittkowski474</UserID>
+        <UserIDChanged>false</UserIDChanged>
+        <UserIDLastChanged>2007-03-20T18:29:46.000Z</UserIDLastChanged>
+        <VATStatus>NoVATTax</VATStatus>
+        <BuyerInfo>
+          <ShippingAddress>
+            <Name>Ben Wittkowski</Name>
+            <Street1>35 East Shore Trail</Street1>
+            <CityName>Branchville</CityName>
+            <StateOrProvince>NJ</StateOrProvince>
+            <Country>US</Country>
+            <CountryName>United States</CountryName>
+            <Phone>(262) 412-5539</Phone>
+            <PostalCode>07826</PostalCode>
+            <AddressID>2606491372</AddressID>
+            <AddressOwner>eBay</AddressOwner>
+            <AddressUsage>DefaultShipping</AddressUsage>
+          </ShippingAddress>
+        </BuyerInfo>
+        <UserAnonymized>false</UserAnonymized>
+        <StaticAlias>wittko_dyw4195obja@members.ebay.com</StaticAlias>
+      </Buyer>
+      <ShippingDetails>
+        <ChangePaymentInstructions>true</ChangePaymentInstructions>
+        <PaymentEdited>true</PaymentEdited>
+        <PaymentInstructions>To checkout, please click on the eBay checkout Pay Now button. You will be redirected to eBay&amp;#39;s 100&amp;#37; secure server, where you will be able to pay through PayPal or directly with any major credit card. Please contact us if you have any difficulties checking out, and we can help walk you through the process. Thank you -- The Blinq Team</PaymentInstructions>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+          <SalesTaxAmount currencyID="USD">0.0</SalesTaxAmount>
+        </SalesTax>
+        <ShippingType>Flat</ShippingType>
+        <SellingManagerSalesRecordNumber>440795</SellingManagerSalesRecordNumber>
+        <ThirdPartyCheckout>false</ThirdPartyCheckout>
+        <TaxTable>
+          <TaxJurisdiction>
+            <JurisdictionID>DC</JurisdictionID>
+            <SalesTaxPercent>5.75</SalesTaxPercent>
+            <ShippingIncludedInTax>false</ShippingIncludedInTax>
+          </TaxJurisdiction>
+          <TaxJurisdiction>
+            <JurisdictionID>MD</JurisdictionID>
+            <SalesTaxPercent>6.0</SalesTaxPercent>
+            <ShippingIncludedInTax>false</ShippingIncludedInTax>
+          </TaxJurisdiction>
+        </TaxTable>
+        <GetItFast>false</GetItFast>
+        <ShippingServiceUsed>ShippingMethodStandard</ShippingServiceUsed>
+        <ExcludeShipToLocation>Alaska/Hawaii</ExcludeShipToLocation>
+        <ExcludeShipToLocation>US Protectorates</ExcludeShipToLocation>
+        <ExcludeShipToLocation>APO/FPO</ExcludeShipToLocation>
+        <ExcludeShipToLocation>Africa</ExcludeShipToLocation>
+        <ExcludeShipToLocation>Asia</ExcludeShipToLocation>
+        <ExcludeShipToLocation>Central America and Caribbean</ExcludeShipToLocation>
+        <ExcludeShipToLocation>Europe</ExcludeShipToLocation>
+        <ExcludeShipToLocation>Middle East</ExcludeShipToLocation>
+        <ExcludeShipToLocation>Oceania</ExcludeShipToLocation>
+        <ExcludeShipToLocation>Southeast Asia</ExcludeShipToLocation>
+        <ExcludeShipToLocation>South America</ExcludeShipToLocation>
+        <ExcludeShipToLocation>BM</ExcludeShipToLocation>
+        <ExcludeShipToLocation>GL</ExcludeShipToLocation>
+        <ExcludeShipToLocation>MX</ExcludeShipToLocation>
+        <ExcludeShipToLocation>PM</ExcludeShipToLocation>
+        <ExcludeShipToLocation>PO Box</ExcludeShipToLocation>
+        <ShipmentTrackingDetails>
+          <ShippingCarrierUsed>FedEx</ShippingCarrierUsed>
+          <ShipmentTrackingNumber>780782338166</ShipmentTrackingNumber>
+        </ShipmentTrackingDetails>
+      </ShippingDetails>
+      <ConvertedAmountPaid currencyID="USD">45.99</ConvertedAmountPaid>
+      <ConvertedTransactionPrice currencyID="USD">45.99</ConvertedTransactionPrice>
+      <CreatedDate>2015-06-06T03:02:31.000Z</CreatedDate>
+      <DepositType>None</DepositType>
+      <Item>
+        <ApplicationData>OptiTurn.com</ApplicationData>
+        <AutoPay>true</AutoPay>
+        <Currency>USD</Currency>
+        <ItemID>400924767966</ItemID>
+        <ListingType>FixedPriceItem</ListingType>
+        <PaymentMethods>PayPal</PaymentMethods>
+        <PrivateListing>false</PrivateListing>
+        <Quantity>24</Quantity>
+        <SellingStatus>
+          <CurrentPrice currencyID="USD">45.99</CurrentPrice>
+          <QuantitySold>20</QuantitySold>
+          <ListingStatus>Active</ListingStatus>
+        </SellingStatus>
+        <GetItFast>false</GetItFast>
+        <SKU>771464</SKU>
+        <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+        <ConditionID>2500</ConditionID>
+        <ConditionDisplayName>Seller refurbished</ConditionDisplayName>
+      </Item>
+      <QuantityPurchased>1</QuantityPurchased>
+      <Status>
+        <eBayPaymentStatus>NoPaymentFailure</eBayPaymentStatus>
+        <CheckoutStatus>CheckoutComplete</CheckoutStatus>
+        <LastTimeModified>2015-06-09T21:42:12.000Z</LastTimeModified>
+        <PaymentMethodUsed>PayPal</PaymentMethodUsed>
+        <CompleteStatus>Complete</CompleteStatus>
+        <BuyerSelectedShipping>true</BuyerSelectedShipping>
+        <PaymentHoldStatus>None</PaymentHoldStatus>
+        <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      </Status>
+      <TransactionID>455869506027</TransactionID>
+      <TransactionPrice currencyID="USD">45.99</TransactionPrice>
+      <BestOfferSale>false</BestOfferSale>
+      <ShippingServiceSelected>
+        <ShippingService>ShippingMethodStandard</ShippingService>
+        <ShippingServiceCost currencyID="USD">0.0</ShippingServiceCost>
+      </ShippingServiceSelected>
+      <PaidTime>2015-06-06T03:02:31.000Z</PaidTime>
+      <ShippedTime>2015-06-08T17:12:43.000Z</ShippedTime>
+      <TransactionSiteID>US</TransactionSiteID>
+      <Platform>eBay</Platform>
+      <PayPalEmailAddress>paypal@blinq.com</PayPalEmailAddress>
+      <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+      <ActualShippingCost currencyID="USD">0.0</ActualShippingCost>
+      <ActualHandlingCost currencyID="USD">0.0</ActualHandlingCost>
+      <OrderLineItemID>400924767966-455869506027</OrderLineItemID>
+      <IsMultiLegShipping>false</IsMultiLegShipping>
+      <IntangibleItem>false</IntangibleItem>
+    </Transaction>
+  </TransactionArray>
+  <PayPalPreferred>true</PayPalPreferred>
+</GetSellerTransactionsResponse>

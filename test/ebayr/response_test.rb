@@ -25,6 +25,39 @@ describe Ebayr::Response do
         OpenStruct.new(:body => xml))
     response.ebay_foo.must_equal 'Bar'
   end
+
+  it 'exposes (nested) attributes' do
+    xml = <<-XML
+      <GetSellerTransactionsResponse>
+        <TransactionArray>
+          <Transaction>
+            <AmountPaid currencyID="USD">50.89</AmountPaid>
+            <AdjustmentAmount currencyID="USD">0.0</AdjustmentAmount>
+            <ConvertedAdjustmentAmount currencyID="USD">0.0</ConvertedAdjustmentAmount>
+            <ShippingDetails>
+              <ChangePaymentInstructions>true</ChangePaymentInstructions>
+              <PaymentEdited>true</PaymentEdited>
+              <PaymentInstructions>To checkout, please click on the eBay checkout Pay Now button</PaymentInstructions>
+              <SalesTax>
+                <SalesTaxPercent>0.0</SalesTaxPercent>
+                <ShippingIncludedInTax>false</ShippingIncludedInTax>
+                <SalesTaxAmount currencyID="USD">1.1</SalesTaxAmount>
+              </SalesTax>
+            </ShippingDetails>
+          </Transaction>
+        </TransactionArray>
+      </GetSellerTransactionsResponse>
+    XML
+
+    response = Ebayr::Response.new(
+      OpenStruct.new(command: 'GetSellerTransactions'),
+      OpenStruct.new(body: xml)
+    )
+    assert_kind_of Hash, response.transaction_array
+    response.transaction_array.transaction.amount_paid.must_equal '50.89'
+    response.transaction_array.transaction.amount_paid_currency_id.must_equal 'USD'
+  end
+
   def test_response_nesting
     xml = <<-XML
       <GetOrdersResponse>
